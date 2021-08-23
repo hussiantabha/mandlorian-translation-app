@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#header {
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: white;
+    padding:0.5rem 1rem
+}
+
+#inputText, #translatedText{
+    width: 500px;
+    margin-left: 125px;
+    height: 25px;
+    padding-right: 8px;
+}
+#button{
+    text-align: center;
+}
+#subBtn{
+    margin-top: 8px;
+    width: 10%;
+    height: 35px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-right: 1%;
+}
+#subBtn:hover{
+    background-color: var(--secondary-color);
+    color: #FFFFFF;
+}
+.labs{
+    margin-top: 64px;
+    padding-left: 100px;
+}
+#inputText,#translatedText{
+    width: 1000px;
+    height:60px
+}
+/** footer **/
+:root{
+    --primary-color:#1D4ED8;
+    --secondary-color:#60A5FA;
+    --ow-gray:#F3F4F6;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin:auto;
+
+}
+ul{
+    text-align: right;
+    
+    
+}
+.item-list-inline{
+    display: inline;
+    padding-right: 1.25rem ;
+    text-align: right;
+}
+.navLinks{
+    text-decoration: none;
+    color:var(--primary-color);
+    padding:0.5rem 1rem;
+    color:white
+}
+.footer{
+    background-color: var(--secondary-color);
+    padding:0.5rem 1.5rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius:1rem ;
+    margin-top: 2.5rem;
+
+}
+.footer .social-links{
+    padding-inline-start:0px ;
+    text-align: center;
+    padding: 0.5rem;
+}
+
