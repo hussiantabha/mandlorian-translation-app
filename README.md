@@ -1,0 +1,1 @@
+# mandlorian-translation-app
